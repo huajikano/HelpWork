@@ -1,0 +1,19 @@
+appId: com.helpwork.app
+productName: HelpWork
+copyright: HelpWork
+directories:
+  output: dist
+  buildResources: build
+files:
+  - dist-main/**
+  - dist-renderer/**
+  - package.json
+asar: true
+win:
+  icon: build/helpwork.ico
+  target:
+    - dir
+    - zip
+  artifactName: HelpWork-${version}-portable-win64.${ext}
+electronDownload:
+  mirror: https://npmmirror.com/mirrors/electron/

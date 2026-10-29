@@ -1,0 +1,70 @@
+{
+  "format": "helpwork-workflow",
+  "version": 1,
+  "exported_at": "2026-10-29T06:56:55.377Z",
+  "workflow": {
+    "id": "08efb744-83c9-4fab-b42c-4783e966dc55",
+    "name": "示例：插件发布流程",
+    "description": "一条演示用的完整工序，可导入后随意修改"
+  },
+  "nodes": [
+    {
+      "id": "101ea63d-1113-483b-8e95-e7b31e70fe63",
+      "title": "准备素材",
+      "note": "把图标、模板放进同一目录；\n注意核对版本号。",
+      "sort_order": 0,
+      "attachments": [
+        {
+          "id": "sample-att-1",
+          "sha256": "82bcb3b9073ca6b176fec661c93c339914034e6c3edfe35bf41caa603ce2f506",
+          "original_name": "素材清单.txt",
+          "stored_path": "82\\82bcb3b9073ca6b176fec661c93c339914034e6c3edfe35bf41caa603ce2f506_素材清单.txt",
+          "size": 72,
+          "ext": "txt",
+          "created_at": "2026-10-29T06:56:55.373Z"
+        }
+      ]
+    },
+    {
+      "id": "a0758fbc-04ba-496c-be58-7286ec799632",
+      "title": "修改配置",
+      "note": "配置文件第 12 行改成目标版本号。",
+      "sort_order": 1,
+      "attachments": [
+        {
+          "id": "sample-att-2",
+          "sha256": "82bcb3b9073ca6b176fec661c93c339914034e6c3edfe35bf41caa603ce2f506",
+          "original_name": "配置核对清单.txt",
+          "stored_path": "82\\82bcb3b9073ca6b176fec661c93c339914034e6c3edfe35bf41caa603ce2f506_素材清单.txt",
+          "size": 72,
+          "ext": "txt",
+          "created_at": "2026-10-29T06:56:55.374Z"
+        }
+      ]
+    },
+    {
+      "id": "964119aa-e556-49b0-a7f5-8fe502e4e320",
+      "title": "执行打包",
+      "note": "右键脚本 → 用 PowerShell 运行；\n产物在 bin\\Release 下。",
+      "sort_order": 2,
+      "attachments": [
+        {
+          "id": "sample-att-3",
+          "sha256": "675ff9934360455a3c4368c0603b07ef64f3bca3157bf3320e3d77c38fd635ac",
+          "original_name": "打包脚本.ps1",
+          "stored_path": "67\\675ff9934360455a3c4368c0603b07ef64f3bca3157bf3320e3d77c38fd635ac_打包脚本.ps1",
+          "size": 47,
+          "ext": "ps1",
+          "created_at": "2026-10-29T06:56:55.375Z"
+        }
+      ]
+    },
+    {
+      "id": "93a1a7f6-3079-45d4-93e4-50514efb5913",
+      "title": "写发布说明",
+      "note": "按模板填：更新点、已知问题、下载链接。",
+      "sort_order": 3,
+      "attachments": []
+    }
+  ]
+}

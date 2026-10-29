@@ -1,0 +1,36 @@
+{
+  "name": "helpwork",
+  "productName": "HelpWork",
+  "version": "1.1.0",
+  "description": "工作流节点文件管理器（Windows 单机桌面版）",
+  "main": "dist-main/main/index.js",
+  "author": "HelpWork",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build:main": "tsc -p tsconfig.main.json",
+    "build:renderer": "vite build",
+    "build": "npm run build:main && npm run build:renderer",
+    "dev": "node scripts/dev.mjs",
+    "start": "electron .",
+    "selftest": "node scripts/selftest.mjs",
+    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "dist": "electron-builder --win dir zip"
+  },
+  "dependencies": {
+    "adm-zip": "^0.5.16",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/adm-zip": "^0.5.7",
+    "@types/node": "^22.15.0",
+    "@types/react": "^18.3.20",
+    "@types/react-dom": "^18.3.5",
+    "@vitejs/plugin-react": "^4.4.1",
+    "electron": "^36.4.0",
+    "electron-builder": "^26.0.12",
+    "typescript": "^5.8.3",
+    "vite": "^6.3.5"
+  }
+}

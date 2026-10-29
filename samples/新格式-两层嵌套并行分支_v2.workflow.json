@@ -1,0 +1,223 @@
+{
+  "format": "helpwork-workflow",
+  "version": 2,
+  "exported_at": "2026-10-29T10:49:34.860Z",
+  "workflow": {
+    "id": "2a93688a-3cd2-49af-a86e-024daac072b4",
+    "name": "示例：插件发布（并行分支）",
+    "description": "演示两层嵌套并行分支：分叉 → 子分叉 → 汇合 → 再分叉"
+  },
+  "nodes": [
+    {
+      "id": "979c5572-a445-4768-89f9-214c20fd8c3f",
+      "title": "需求确认",
+      "note": "和需求方确认版本范围。",
+      "sort_order": 0,
+      "parent_id": null,
+      "branch_id": null,
+      "attachments": []
+    },
+    {
+      "id": "21f6b1da-de7b-418e-8a58-1eb26bfa5df6",
+      "title": "界面 · 开始",
+      "note": null,
+      "sort_order": 0,
+      "parent_id": "19a88467-5bca-4af7-bd89-60e4af57fd80",
+      "branch_id": "5b21c55c-f4c8-4545-85c5-0c5cc1019288",
+      "attachments": []
+    },
+    {
+      "id": "7082c95c-6021-4e9c-b417-31e8137573ac",
+      "title": "接口 · 开始",
+      "note": null,
+      "sort_order": 0,
+      "parent_id": "19a88467-5bca-4af7-bd89-60e4af57fd80",
+      "branch_id": "daf206be-ce46-474c-b451-cad47f82ef8a",
+      "attachments": []
+    },
+    {
+      "id": "4ac00c95-7b15-497c-acb4-e0b0cbfb11ee",
+      "title": "文档 · 开始",
+      "note": null,
+      "sort_order": 0,
+      "parent_id": "19a88467-5bca-4af7-bd89-60e4af57fd80",
+      "branch_id": "68e42ef9-bb80-4312-9fac-e7c028533a69",
+      "attachments": []
+    },
+    {
+      "id": "6cbbbc16-3891-43b1-9ac4-35447dc00919",
+      "title": "样式 · 开始",
+      "note": null,
+      "sort_order": 0,
+      "parent_id": "cf9ec062-609b-4610-8d4a-047864ffc518",
+      "branch_id": "9d34baaf-9587-4e47-becc-427b26af7fe0",
+      "attachments": []
+    },
+    {
+      "id": "d1b0d8c0-13ab-4b67-a2da-b34144c3a6d5",
+      "title": "交互 · 开始",
+      "note": null,
+      "sort_order": 0,
+      "parent_id": "cf9ec062-609b-4610-8d4a-047864ffc518",
+      "branch_id": "1f7a4c84-ed02-4cc8-bdce-de99ee0bc1bb",
+      "attachments": []
+    },
+    {
+      "id": "14af26f5-dc26-44dc-b5a3-d844aa75d773",
+      "title": "打包 · 开始",
+      "note": null,
+      "sort_order": 0,
+      "parent_id": "8ad7740a-7a5b-46ff-9b77-b167606825e6",
+      "branch_id": "6c6e528a-06dc-47f2-9052-d9e59dc41666",
+      "attachments": []
+    },
+    {
+      "id": "69b762de-0f11-412a-a2ac-db58509bf668",
+      "title": "写发布说明 · 开始",
+      "note": null,
+      "sort_order": 0,
+      "parent_id": "8ad7740a-7a5b-46ff-9b77-b167606825e6",
+      "branch_id": "d0c3d2da-a130-4813-bd5d-a2065ce7359f",
+      "attachments": []
+    },
+    {
+      "id": "19a88467-5bca-4af7-bd89-60e4af57fd80",
+      "title": "拆分任务",
+      "note": "从这里开始三条线并行推进。",
+      "sort_order": 1,
+      "parent_id": null,
+      "branch_id": null,
+      "attachments": []
+    },
+    {
+      "id": "cf9ec062-609b-4610-8d4a-047864ffc518",
+      "title": "画页面",
+      "note": null,
+      "sort_order": 1,
+      "parent_id": "19a88467-5bca-4af7-bd89-60e4af57fd80",
+      "branch_id": "5b21c55c-f4c8-4545-85c5-0c5cc1019288",
+      "attachments": []
+    },
+    {
+      "id": "207fa9da-e5d1-49ea-b559-042e09bb7048",
+      "title": "写接口",
+      "note": null,
+      "sort_order": 1,
+      "parent_id": "19a88467-5bca-4af7-bd89-60e4af57fd80",
+      "branch_id": "daf206be-ce46-474c-b451-cad47f82ef8a",
+      "attachments": []
+    },
+    {
+      "id": "33cc703a-9d92-4bb9-a4ec-62891b84765e",
+      "title": "写使用说明",
+      "note": null,
+      "sort_order": 1,
+      "parent_id": "19a88467-5bca-4af7-bd89-60e4af57fd80",
+      "branch_id": "68e42ef9-bb80-4312-9fac-e7c028533a69",
+      "attachments": []
+    },
+    {
+      "id": "87f2a3d7-b80e-48b5-81d1-4284daf4c8aa",
+      "title": "调配色",
+      "note": null,
+      "sort_order": 1,
+      "parent_id": "cf9ec062-609b-4610-8d4a-047864ffc518",
+      "branch_id": "9d34baaf-9587-4e47-becc-427b26af7fe0",
+      "attachments": []
+    },
+    {
+      "id": "82ef3f88-c8a5-42f0-b18b-859d69d3db54",
+      "title": "加快捷键",
+      "note": null,
+      "sort_order": 1,
+      "parent_id": "cf9ec062-609b-4610-8d4a-047864ffc518",
+      "branch_id": "1f7a4c84-ed02-4cc8-bdce-de99ee0bc1bb",
+      "attachments": []
+    },
+    {
+      "id": "d050447c-3737-4ef5-bb8c-f70e814ad701",
+      "title": "接口自测",
+      "note": null,
+      "sort_order": 2,
+      "parent_id": "19a88467-5bca-4af7-bd89-60e4af57fd80",
+      "branch_id": "daf206be-ce46-474c-b451-cad47f82ef8a",
+      "attachments": []
+    },
+    {
+      "id": "fec98335-cd45-4364-b4c2-e8130449cd0d",
+      "title": "界面联调",
+      "note": null,
+      "sort_order": 2,
+      "parent_id": "19a88467-5bca-4af7-bd89-60e4af57fd80",
+      "branch_id": "5b21c55c-f4c8-4545-85c5-0c5cc1019288",
+      "attachments": []
+    },
+    {
+      "id": "8ad7740a-7a5b-46ff-9b77-b167606825e6",
+      "title": "汇总验收",
+      "note": "三条线都完成后才能走到这一步。",
+      "sort_order": 2,
+      "parent_id": null,
+      "branch_id": null,
+      "attachments": []
+    }
+  ],
+  "branches": [
+    {
+      "id": "5b21c55c-f4c8-4545-85c5-0c5cc1019288",
+      "fork_node_id": "19a88467-5bca-4af7-bd89-60e4af57fd80",
+      "name": "界面",
+      "status": "done",
+      "completed_at": "2026-10-29T10:49:34.852Z",
+      "sort_order": 0
+    },
+    {
+      "id": "9d34baaf-9587-4e47-becc-427b26af7fe0",
+      "fork_node_id": "cf9ec062-609b-4610-8d4a-047864ffc518",
+      "name": "样式",
+      "status": "done",
+      "completed_at": "2026-10-29T10:49:34.848Z",
+      "sort_order": 0
+    },
+    {
+      "id": "6c6e528a-06dc-47f2-9052-d9e59dc41666",
+      "fork_node_id": "8ad7740a-7a5b-46ff-9b77-b167606825e6",
+      "name": "打包",
+      "status": "done",
+      "completed_at": "2026-10-29T10:49:34.858Z",
+      "sort_order": 0
+    },
+    {
+      "id": "daf206be-ce46-474c-b451-cad47f82ef8a",
+      "fork_node_id": "19a88467-5bca-4af7-bd89-60e4af57fd80",
+      "name": "接口",
+      "status": "done",
+      "completed_at": "2026-10-29T10:49:34.853Z",
+      "sort_order": 1
+    },
+    {
+      "id": "1f7a4c84-ed02-4cc8-bdce-de99ee0bc1bb",
+      "fork_node_id": "cf9ec062-609b-4610-8d4a-047864ffc518",
+      "name": "交互",
+      "status": "done",
+      "completed_at": "2026-10-29T10:49:34.849Z",
+      "sort_order": 1
+    },
+    {
+      "id": "d0c3d2da-a130-4813-bd5d-a2065ce7359f",
+      "fork_node_id": "8ad7740a-7a5b-46ff-9b77-b167606825e6",
+      "name": "写发布说明",
+      "status": "active",
+      "completed_at": null,
+      "sort_order": 1
+    },
+    {
+      "id": "68e42ef9-bb80-4312-9fac-e7c028533a69",
+      "fork_node_id": "19a88467-5bca-4af7-bd89-60e4af57fd80",
+      "name": "文档",
+      "status": "done",
+      "completed_at": "2026-10-29T10:49:34.854Z",
+      "sort_order": 2
+    }
+  ]
+}

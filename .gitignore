@@ -1,0 +1,11 @@
+node_modules/
+dist/
+dist-acceptance/
+dist-release/
+dist-main/
+dist-renderer/
+HelpWorkData/
+HelpWorkData.dev/
+.dsh/
+electron/
+*.log
