@@ -6,6 +6,11 @@
 - 中文界面、浅色主题、绿色免安装
 - 支持并行分支：一个步骤可展开多条子流程并行记录，全部分支显式标记完成后主线才继续；支持嵌套分支与完成门控
 
+## 下载
+
+- 最新绿色版：[GitHub Releases](https://github.com/huajikano/HelpWork/releases/latest)
+- 下载 `HelpWork-1.1.0-portable-win64.zip`，解压后双击 `HelpWork.exe` 即可使用（免安装）。
+
 ## 环境要求
 
 - Windows 11 x64
